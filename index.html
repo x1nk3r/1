@@ -1,72 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CELEBRATING 100 YEARS OF GOD'S FAITHFULNESS | FIRST ECWA IWO</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="index.css"> 
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#events">Centenary Events</a></li>
-                <li><a href="#gallery">Photo Gallery</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <div class="hero">
-                <h1>CELEBRATING 100 YEARS OF GOD'S FAITHFULNESS</h1>
-                <p>Join us as we commemorate a century of God's goodness and faithfulness to FIRST ECWA IWO</p>
-                <button>Learn More</button>
-            </div>
-        </section>
-        <section id="about">
-            <h2>About FIRST ECWA IWO</h2>
-            <p>Learn about our rich history, mission, and values</p>
-            <button>Read More</button>
-        </section>
-        <section id="events">
-            <h2>Centenary Events</h2>
-            <p>Join us for a series of events celebrating our 100th anniversary</p>
-            <ul>
-                <li>Thanks Giving Service</li>
-                <li>Centenary Lecture</li>
-                <li>Youth Concert</li>
-                <li>Anniversary Dinner</li>
-            </ul>
-        </section>
-        <section id="gallery">
-            <h2>Photo Gallery</h2>
-            <p>View photos from our past events and activities</p>
-            <div class="gallery">
-                <img src="image1.jpg" alt="Image 1">
-                <img src="image2.jpg" alt="Image 2">
-                <img src="image3.jpg" alt="Image 3">
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Get in Touch</h2>
-            <p>Contact us for more information or to participate in our centenary celebrations</p>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name"><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea><br><br>
-                <input type="submit" value="Send">
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 FIRST ECWA IWO. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+  <div class="container">
+    <h2>Login</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
 </body>
 </html>
